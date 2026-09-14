@@ -8,10 +8,14 @@ const __dirname = path.dirname(__filename);
 const nextConfig = {
   images: {
     qualities: [75, 90, 100],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cms.secureguardservices.com',
+      },
+    ],
   },
-  turbopack: {
-    root: __dirname,
-  },
+
 };
 
 export default nextConfig;

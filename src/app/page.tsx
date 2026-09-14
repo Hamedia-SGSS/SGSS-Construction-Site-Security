@@ -45,7 +45,7 @@ export default function ConstructionSiteSecurityPage() {
       <section className={styles.hero} id="hero">
         <div className={styles.heroBg}>
           <Image
-            src="/construction_security_hero.png"
+            src="https://cms.secureguardservices.com/wp-content/uploads/2026/09/con1-1.png"
             alt="Secure Guard officer standing in front of a busy construction site at twilight with crane and scaffolding"
             fill
             className={styles.heroBgImg}
@@ -137,7 +137,7 @@ export default function ConstructionSiteSecurityPage() {
           <div className={styles.addonGrid}>
             <div className={styles.addonImageCol}>
               <Image 
-                src="/construction_security_patrol.png" 
+                src="https://cms.secureguardservices.com/wp-content/uploads/2026/09/con2.png" 
                 alt="Secure Guard officer conducting patrol checks at a construction site" 
                 width={600} 
                 height={500} 
